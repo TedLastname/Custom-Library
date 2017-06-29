@@ -12,5 +12,18 @@ public class FileEditor {
 	
 	public static String read(String l) {
 		return "Hey"; // I haven't even started this one, sorry
+		// TODO Literally just do anything. There's nothing.
+	}
+	
+	public static void edit(String o, String n) {
+		// TODO make editing work. That'd be good.
+		// I'm going to use this for a text adventure, so I want to
+		// store some variables.  I'll need to edit them when I save,
+		// things like the inventory and all that, so I'll use the
+		// read() function and I suppose I'll have to find some way
+		// to edit without taking everything and copying it and writing with
+		// the new value.  I'm not looking forward to it.
+		// The adventure is really just like a coding exercise, so I   
+		// probably won't release it.
 	}
 }
