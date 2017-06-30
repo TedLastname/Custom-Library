@@ -2,11 +2,6 @@ package ted.util;
 
 public class SimpleMath {
 	
-	public static void main(String[] args) {
-		// System.out.println(choose(2,1));
-		// I used the main to do the actual testing
-	}
-	
 	public int add(Integer a, Integer b) {
 		return a+b;
 	}

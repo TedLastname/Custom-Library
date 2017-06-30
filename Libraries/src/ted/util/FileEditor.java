@@ -1,6 +1,8 @@
 package ted.util;
 
 import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.FileWriter;
 
 public class FileEditor {
@@ -11,8 +13,16 @@ public class FileEditor {
 	}
 	
 	public static String read(String l) {
-		return "Hey"; // I haven't even started this one, sorry
-		// TODO Literally just do anything. There's nothing.
+		try {
+			BufferedReader read = new BufferedReader(new FileReader(l));
+			// put all of the lines into an ArrayList and return that
+			// TODO change return type to ArrayList when done
+			read.close();
+			return "Reading isn't ready yet!";
+		} catch (Exception e) {
+			System.out.println("An Error occurred in reading the file at " + "\"" + l + "\"");
+			return "";
+		}
 	}
 	
 	public static void edit(String o, String n) {
